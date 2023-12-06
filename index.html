@@ -14,7 +14,47 @@
 
 <body>
     <header>
-        <nav></nav>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container justify-content-evenly">
+              <a class="navbar-brand" href="#">
+                <img src="/img/logo.png" alt="logo">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item pe-3">
+                    <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                  </li>
+                  <li class="nav-item pe-3">
+                    <a class="nav-link" href="#">Sobre</a>
+                  </li>
+                  <li class="nav-item dropdown pe-3">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Serviços
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Pintura</a></li>
+                      <li><a class="dropdown-item" href="#">Revestimento</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Acabamento</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item pe-3">
+                    <a class="nav-link" href="#">Clientes</a>
+                  </li>
+                  <li class="nav-item pe-3 me-5">
+                    <a class="nav-link" href="#">Contato</a>
+                  </li>
+                </ul>
+                <div class="text-center">
+                    <div class="mb-1"><img src="/img/icon-whatss.png" alt="icone-whats"><span>(17) 99999-1111</span></div>
+                    <button>Fale Conosco!</button>
+                </div>
+              </div>
+            </div>
+        </nav>
     </header>
     <article>
         <img class="img-fluid w-100 border-dark banner" src="/img/banner.jpg" alt="banner-pintbem" />
@@ -135,12 +175,12 @@
     <footer class="footer-img">
         <div class="container">
             <div class="row justify-content-center align-items-center pt-5 pb-5">
-                <div class="col-md-3 footer-col px-5">
+                <div class="col-12 col-lg-3 footer-col">
                     <img class="pb-2 w-100" src="/img/logo.png" alt="logo-pintBem">
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum tempora quibusdam aliquam ducimus
                         quisquam quidemIllum tempora quibusdam.</p>
                 </div>
-                <div class="col-md-3 footer-col px-5">
+                <div class="col-12 col-lg-3 footer-col">
                     <ul>
                         <li>- Inicio</li>
                         <li>- Sobre Nós</li>
@@ -148,7 +188,7 @@
                         <li>- Contato</li>
                     </ul>
                 </div>
-                <div class="col-md-3 footer-col px-5">
+                <div class="col-12 col-lg-3 footer-col">
                     <ul>
                         <li>
                             <div>
