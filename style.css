@@ -78,7 +78,7 @@ main .cards .card {
 }
 
 .about {
-    padding: 100px 0;
+    padding: 80px 0;
 }
 
 .about .about-img {
@@ -320,7 +320,7 @@ footer .footer-col {
         border-right: 0;
         margin-bottom: 15px;
         height: auto;
-        padding: 30px 0;
+        padding: 15px 0;
         justify-content: center;
     }
 }
