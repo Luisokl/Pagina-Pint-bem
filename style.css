@@ -37,7 +37,7 @@ main .cards .card {
 }
 
 .about {
-  padding: 80px 0;
+  padding: 100px 0;
 }
 .about .about-img {
   width: 35%;
@@ -76,15 +76,18 @@ main .cards .card {
   font-size: 1.2rem;
   font-weight: bold;
   margin-top: 20px;
+  max-width: 170px;
 }
 
+article.range {
+    padding: 80px 0 ;
+}
 article .img-range-whats img {
   border-radius: 30px;
 }
 
 .hire {
   position: relative;
-  padding: 80px 0;
   height: 500px;
 }
 
@@ -105,10 +108,12 @@ article .img-range-whats img {
   left: 50%;
   transform: translate(-50%, -50%);
   margin-left: 100px;
+  max-width: 600px;
 }
 .hire .hire-content p {
   font-weight: bold;
   color: #ff0000;
+  margin-bottom: 0;
 }
 .hire .hire-content span {
   font-style: italic;
@@ -123,7 +128,7 @@ article .img-range-whats img {
   color: #ff0000;
   font-size: 1.2rem;
   font-weight: bold;
-  margin-top: 20px;
+  margin-top: 40px;
 }
 
 .hire-content h2 {
@@ -140,30 +145,76 @@ article .company {
   display: flex;
   align-items: center;
 }
-
 .company img {
   width: 150px;
 }
+article .customers {
+    width: 300px;
+    margin: 0 auto;
+    font-size: 2rem;
+    color: #FFF;
+    font-weight: bold;
+    padding: 15px;
+    background: #ff0000;
+}
 
 
+footer {
+    height: 350px;
+    display: flex;
+    align-items: center;
+}
 footer.footer-img {
   background-image: url(/img/bg-rodape.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
 footer .footer-col {
+  width: 400px;
   color: #FFF;
   padding: 0 20px;
 }
+.footer-col:nth-child(1) {
+    text-align: justify;
+    word-spacing: -10px;
+}
+.footer-col:nth-child(2) {
+    border-left: 4px solid #ff0000;
+    border-right: 4px solid #ff0000;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 30px;
+}
+.footer-col:nth-child(2) li {
+    list-style: none;
+}
+.footer-col:nth-child(3) img {
+    width: 50px;
+    filter: invert(100%);
+    padding-right: 20px;
+}
+.footer-col ul li {
+    display: flex;
+    align-items: center;
+}
+.footer-col:nth-child(3) li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
 
-footer .footer-col:nth-child(1) {
-  border-right: 2px solid #ff0000;
-  min-height: 200px;
+.rodape {
+    background-color: #ff0000;
+    color: #FFF;
+    padding: 5px 0;
+    font-size: 1.2rem;
 }
-footer .footer-col:nth-child(3) {
-  border-left: 2px solid #ff0000;
-  min-height: 200px;
-}
+
+
+
+
+
 
 
 
